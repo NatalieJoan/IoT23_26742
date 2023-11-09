@@ -1,0 +1,3 @@
+C:\Users\nhelak\Documents\IoT23_26742\publish\Lab1.DTO.dll
+C:\Users\nhelak\Documents\IoT23_26742\publish\Lab1.DTO.deps.json
+C:\Users\nhelak\Documents\IoT23_26742\publish\Lab1.DTO.pdb

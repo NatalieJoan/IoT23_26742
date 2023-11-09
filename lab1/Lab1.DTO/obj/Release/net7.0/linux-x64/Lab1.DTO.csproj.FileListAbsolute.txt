@@ -1,0 +1,11 @@
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\bin\Release\net7.0\linux-x64\Lab1.DTO.deps.json
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\bin\Release\net7.0\linux-x64\Lab1.DTO.dll
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\bin\Release\net7.0\linux-x64\Lab1.DTO.pdb
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.AssemblyInfoInputs.cache
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.AssemblyInfo.cs
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.csproj.CoreCompileInputs.cache
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.dll
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\refint\Lab1.DTO.dll
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\Lab1.DTO.pdb
+C:\Users\nhelak\Documents\IoT23_26742\lab1\Lab1.DTO\obj\Release\net7.0\linux-x64\ref\Lab1.DTO.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G+EUVyBnDwrmphzJHc/l6e21r2bLFxhVplx5tuo14MLGDiS0HlDuUuUym1oSdovCywPcnF/jEdBQ8fSRDARlPg==",
+  "dgSpecHash": "psg5A9l/NibVQqCS89zlX3eTAiZ6obScBPuhDh/nBrvMoLID+flQE8pTrdao0T8/V3X3CRR+a8RV8L1CSqOYKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nhelak\\Documents\\IoT23_26742\\lab1\\Lab1.Rest\\Lab1.Rest.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,10 @@
     "C:\\Users\\nhelak\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\nhelak\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\nhelak\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\nhelak\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\nhelak\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\nhelak\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\7.0.10\\microsoft.netcore.app.runtime.linux-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\nhelak\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.linux-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\nhelak\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.10\\microsoft.netcore.app.host.linux-x64.7.0.10.nupkg.sha512"
   ],
   "logs": []
 }
