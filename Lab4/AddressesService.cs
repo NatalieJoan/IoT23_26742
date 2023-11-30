@@ -3,7 +3,7 @@ namespace CdvAzure.Functions
 {
     public class AddressesService
     {
-        private List<Address> people { get;} = new List<Address>();
+        private List<Address> addresses { get;} = new List<Address>();
 
         public Address Add(string city, string street, numberOfHome, zipCode)
         {
@@ -18,35 +18,39 @@ namespace CdvAzure.Functions
             return address;
         }
 
-        public Address Update(int id, string firstName, string lastName)
+        public Address Update(int id, string city, string street)
         {
-            var person = people.First(w => w.Id == id);
-            person.FirstName = firstName;
-            person.LastName = lastName;
+            var address = addresses.First(w => w.Id == id);
+            address.City = city;
+            address.Street = street;
+            address.NumberOfHome = numberOfHomr;
+            address.ZipCode = zipCode;
 
-            return person;
+            return address;
         }
 
         public void Delete(int id)
         {
-            var person = people.First(w => w.Id == id);
-            people.Remove(person);
+            var address = addresses.First(w => w.Id == id);
+            addresses.Remove(address);
         }
 
-        public Person Find(int id)
+        public Address Find(int id)
         {
-            return people.First(w => w.Id == id);
+            return addresses.First(w => w.Id == id);
         }
 
-        public IEnumerable<Person> Get()
+        public IEnumerable<Address> Get()
         {
-            return people;
+            return addresses;
         }
-        public class Person
+        public class Address
         {
             public int Id { get; set;}
-            public string FirstName { get; set; }
-            public string LastName { get; set;}
+            public string City { get; set; }
+            public string Street { get; set;}
+            public int NumberOfHome { get; set;}
+            public int ZipCode { get; set;}
         }
     }
 }
