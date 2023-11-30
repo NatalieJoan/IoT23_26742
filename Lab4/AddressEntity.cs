@@ -13,9 +13,9 @@ private void ConfigureAddressEntity(EntityTypeBuilder<AddressEntity> entity)
     entity.Property(p => p.AddressLine2).HasMaxLength(500).IsRequired(false);
     entity.Property(p => p.City).HasMaxLength(100).IsRequired();
 
-    // entity.HasMany(p => p.People)
-    // .WithOne(o => o.Address)
-    // .HasForeignKey(fk => fk.AddressId);
+    entity.HasMany(p => p.People)
+    .WithOne(o => o.Address)
+    .HasForeignKey(fk => fk.AddressId);
 }
 
 private void ConfigurePersonEntity(EntityTypeBuilder<PersonEntity> entity)

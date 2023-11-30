@@ -7,18 +7,18 @@ using Microsoft.Extensions.Logging;
 
 namespace CdvAzure.Function
 {
-    public class CdvAzure_Functions
+    public class PeopleFn
     {
         private readonly ILogger _logger;
         private readonly PeopleService peopleService;
 
-        public CdvAzure_Functions(ILoggerFactory loggerFactory, PeopleService peopleService)
+        public PeopleFn(ILoggerFactory loggerFactory, PeopleService peopleService)
         {
-            _logger = loggerFactory.CreateLogger<CdvAzure_Functions>();
+            _logger = loggerFactory.CreateLogger<PeopleFn>();
             this.peopleService = peopleService;
         }
 
-        [Function("CdvAzure_Functions")]
+        [Function("PeopleFn")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
