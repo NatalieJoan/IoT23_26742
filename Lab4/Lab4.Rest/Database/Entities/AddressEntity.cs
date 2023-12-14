@@ -1,7 +1,8 @@
-namespace Lab1.Rest.Database.Entities
+namespace Lab4.Rest.Database.Entities
 {
-    public class PersonEntity
+    public class AddressEntity
     {
+        public int Id { get; set; }
         public string City { get; set; }
         public string Street { get; set; }
         public int NumberOfHome { get; set; }
