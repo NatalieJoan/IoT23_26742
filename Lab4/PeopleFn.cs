@@ -1,11 +1,12 @@
 using System.Net;
 using System.Text.Json;
-using CdvAzure.Functions;
+using Azure;
+using CdvAzure.Service;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
 
-namespace CdvAzure.Function
+namespace CdvAzure.Functions
 {
     public class PeopleFn
     {
@@ -19,7 +20,7 @@ namespace CdvAzure.Function
         }
 
         [Function("PeopleFn")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
+        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", "delete", "put")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
 
@@ -57,9 +58,10 @@ namespace CdvAzure.Function
         }
     }
 
-    internal class Person
-    {
-        public string FirstName { get; internal set; }
-        public string LastName { get; internal set; }
-    }
+    // internal class Person
+    // {
+    //     public int Id {get; internal set;}
+    //     public string FirstName { get; internal set; }
+    //     public string LastName { get; internal set; }
+    // }
 }

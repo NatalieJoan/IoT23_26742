@@ -1,13 +1,14 @@
 
-namespace CdvAzure.Functions
+namespace CdvAzure.Service
 {
     public class PeopleService
     {
-        private List<Person> people { get;} = new List<Person>();
+        private List<Person> people { get; } = new List<Person>();
 
         public Person Add(string firstName, string lastName)
         {
-            var person = new Person{
+            var person = new Person
+            {
                 FirstName = firstName,
                 LastName = lastName,
                 Id = people.Count + 1
@@ -40,11 +41,11 @@ namespace CdvAzure.Functions
         {
             return people;
         }
-        public class Person
+    }
+            public class Person
         {
             public int Id { get; set;}
             public string FirstName { get; set; }
             public string LastName { get; set;}
         }
-    }
 }

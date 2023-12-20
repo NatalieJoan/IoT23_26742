@@ -1,7 +1,7 @@
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using CdvAzure.Functions;
+using CdvAzure.Service;
 
 var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
