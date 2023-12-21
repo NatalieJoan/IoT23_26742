@@ -1,6 +1,5 @@
 using System.Net;
 using System.Text.Json;
-using Azure;
 using CdvAzure.Service;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;

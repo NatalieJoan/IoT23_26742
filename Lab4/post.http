@@ -2,14 +2,28 @@ POST https://cdv-function-nhelak.azurewebsites.net/api/PeopleFn?code=4-b-BakZ1bu
 content-Type: application/json
 
 {
-    "FirstName": "Marcin",
-    "LastName": "Dobry"
+    "FirstName": "Julia",
+    "LastName": "Milutka"
+}
+
+POST http://localhost:7071/api/PeopleFn HTTP/1.1
+content-Type: application/json
+
+{
+    "FirstName": "Julia",
+    "LastName": "Milutka"
 }
 
 GET https://cdv-function-nhelak.azurewebsites.net/api/PeopleFn?code=4-b-BakZ1buWRjGmkzLE1FP7AgDTSBWvrfR_4AdKJ8kSAzFuiBD32g== HTTP/1.1
 content-Type: application/json
 
 {}
+
+GET http://localhost:7071/api/PeopleFn HTTP/1.1
+content-Type: application/json
+
+{
+}
 
 DELETE https://cdv-function-nhelak.azurewebsites.net/api/PeopleFn?code=4-b-BakZ1buWRjGmkzLE1FP7AgDTSBWvrfR_4AdKJ8kSAzFuiBD32g== HTTP/1.1
 content-Type: application/json
