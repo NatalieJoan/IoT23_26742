@@ -1,6 +1,6 @@
 using Lab4.Database.Entities;
 
-namespace Lab3.Services.People
+namespace Lab3.Services
 {
     public interface IPeopleService
     {

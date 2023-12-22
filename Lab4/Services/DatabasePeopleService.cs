@@ -1,8 +1,8 @@
 using Lab3.Database;
-using Lab3.Services.People;
+using Lab3.Services;
 using Lab4.Database.Entities;
 
-namespace CdvAzure.Service
+namespace CdvAzure.Services
 {
     public class DatabasePeopleService : IPeopleService
     {
@@ -17,7 +17,8 @@ namespace CdvAzure.Service
             var entity = new PersonEntity
             {
                 FirstName = person.FirstName,
-                LastName = person.LastName
+                LastName = person.LastName,
+                AddressId = person.AddressId
             };
             db.People.Add(entity);
             db.SaveChanges();

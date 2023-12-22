@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
 using Microsoft.Extensions.Logging;
-using Lab3.Services.People;
+using Lab3.Services;
 using Lab4.Database.Entities;
 
 namespace Lab3.Controllers.People
@@ -12,7 +12,6 @@ namespace Lab3.Controllers.People
     {
         private readonly ILogger<PeopleController> logger;
         private readonly IPeopleService peopleService;
-
         public PeopleController(ILogger<PeopleController> logger, IPeopleService peopleService)
         {
             this.logger = logger;

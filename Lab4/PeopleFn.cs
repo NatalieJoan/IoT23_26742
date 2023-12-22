@@ -11,7 +11,6 @@ namespace CdvAzure.Functions
     {
         private readonly ILogger _logger;
         private readonly PeopleService peopleService;
-
         public PeopleFn(ILoggerFactory loggerFactory, PeopleService peopleService)
         {
             _logger = loggerFactory.CreateLogger<PeopleFn>();
@@ -56,11 +55,4 @@ namespace CdvAzure.Functions
             return response;
         }
     }
-
-    // internal class Person
-    // {
-    //     public int Id {get; internal set;}
-    //     public string FirstName { get; internal set; }
-    //     public string LastName { get; internal set; }
-    // }
 }
